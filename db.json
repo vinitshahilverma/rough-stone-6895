@@ -1,0 +1,28 @@
+{
+  "gymDetails": [
+    {
+      "smallImg": "",
+      "title": "Ab crunch machine",
+      "video": "https://youtu.be/_O1xunCfYEM",
+      "Sort": "Ab crunch machine",
+      "bigImg": "",
+      "muscleGroup": "Abdominal",
+      "steps": "1. Select a light resistance and sit down on the ab crunch machine placing your feet under the pads provided and grabbing the top handles. Your arms should be bent at a 90 degree angle.  2. At the same time, begin to lift the legs up as you curve your upper torso. Breathe out as you perform this movement.  3. After a second pause, slowly return to the starting position as you breathe in.  4. Repeat the movement for the prescribed amount of repetitions.",
+      "tips": "Be sure to use a slow and controlled motion. Concentrate on using your abs to move the weight while relaxing your legs and feet.",
+      "warning": "For this exercise, always select a weight that you can easily handle as using too much weight can easily lead to injury.",
+      "id": 1
+    },
+    {
+      "smallImg": "https://www.gymwolf.com/images/exercises/1077_0_thumb.jpg",
+      "title": "Ab Rollout",
+      "video": "https://youtu.be/A3uK5TPzHq8",
+      "Sort": "This exercise works the abs and lower back and is the proper version of an ab roller.",
+      "bigImg": "https://www.gymwolf.com/images/exercises/1077_1.jpg",
+      "muscleGroup": "Abdominal",
+      "steps": "1. Place a barbell on the floor at your feet.  2. Bending at the waist, grip the barbell with a shoulder with overhand grip.  3. With a slow controlled motion, roll the bar out as much as you can handle so that your back is straight.  4. Keep your arms straight throughout the exercise.  5. Roll back up raising your hips and butt as you return to the starting position.",
+      "tips": "Practice raising your hips and butt as high as you can with this exercise.",
+      "warning": "",
+      "id": 2
+    }
+  ]
+}
