@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise and Plans</title>
+    <link rel="stylesheet" href="../styless/main.css" />
+    <style>
+      #exercise {
+        width: 1140px;
+        margin: auto;
+        margin-top: 30px;
+      }
+      #exercise > h1 {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(238, 231, 231);
+      }
+      #picture {
+        width: 1140px;
+        margin: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 364.8px);
+        grid-template-rows: repeat(3, 310.25px);
+        gap: 10px;
+      }
+      #picture > div {
+        position: relative;
+      }
+      #picture img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .smallDiv {
+        background-color: rgba(4, 4, 4, 0.6);
+        color: white;
+        position: relative;
+        top: -40px;
+        height: 40px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+      }
+      .smallDiv > h2 {
+        font-size: 20px;
+        font-weight: 300;
+      }
+
+      .smallDiv:hover {
+        background-color: rgba(0, 123, 174, 0.7);
+        position: relative;
+        top: -60px;
+        height: 60px;
+        cursor: pointer;
+      }
+      #total {
+        width: 1140px;
+        margin: auto;
+      }
+      .mainDiv {
+        display: flex;
+      }
+      .div1 , .div2{
+        border:1px solid rgb(224, 213, 213);
+      }
+      .div1{
+        width:117px;
+        height:57px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+      .img{
+        display: block;
+        height:48px;
+        width:48px;
+        margin:0px 26px;
+      }
+      .div2{
+          width:992px;
+          height:57px;
+          display: grid;
+         justify-content: flex-start;
+         align-items: center;
+          padding: 10px;
+       
+      }
+      .h3{
+        color: #428bca;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .h31{
+        font-size: 15px;
+        font-weight: 500;
+        width:650px;
+        height:20px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: rgb(85, 82, 82);
+      }
+      .h1{
+          font-size: 30px;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-weight:500;
+          margin-top: 30px;
+          margin-bottom: 10px;
+      }
+      #triceps{
+        margin-bottom: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainDiv"></div>
+    <div id="list"></div>
+    <div id="exercise"><h1>Exercise List</h1></div>
+    <div id="picture"></div>
+    <div>
+      <div id="total">
+      <h1 class="h1">Abdominal</h1>
+      <div id="abdominal"></div>
+      <h1 class="h1">Back</h1>
+      <div id="back"></div>
+      <h1 class="h1">Biceps</h1>
+      <div id="biceps"></div>
+      <h1 class="h1">Chest</h1>
+      <div id="chest"></div>
+      <h1 class="h1">Combined</h1>
+      <div id="combined"></div>
+      <h1 class="h1">Legs</h1>
+      <div id="legs"></div>
+      <h1 class="h1">Shoulder</h1>
+      <div id="shoulder"></div>
+      <h1 class="h1">Triceps</h1>
+      <div id="triceps"></div>
+    </div>
+  </body>
+</html>
+
+<script type="module" src="../scriptss/main.js"></script>

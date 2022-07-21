@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Exercises</title>
+    <script
+      src="https://kit.fontawesome.com/3e2211948f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styless/main.css" />
+    <style>
+      #Addnewex {
+        width: 455.5px;
+        height: 38.6px;
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid rgb(224, 213, 213);
+        margin-top: 15px;
+        padding-left: 15px;
+        margin-left: 200px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 3px 3px 0px 0px;
+      }
+      #Addnewex > h3 {
+        font-size: 16px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+      }
+      #main {
+        width: 455.5px;
+        height: 523px;
+        margin-left: 200px;
+        border: 1px solid rgb(224, 213, 213);
+        display: flex;
+        display: none;
+        margin-bottom: 80px;
+      }
+      #inputDiv input,
+      #exerciseName1 {
+        width: 273.66px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid rgb(199, 192, 192);
+        margin-top: 8px;
+        margin-bottom: 15px;
+        padding-left: 12px;
+        outline-color: rgb(11, 75, 237);
+      }
+      #inputDiv select,
+      #muscleGroup1 {
+        width: 273.66px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid rgb(199, 192, 192);
+        margin-top: 8px;
+        margin-bottom: 15px;
+        outline: rgb(11, 75, 237);
+      }
+      #imgDiv input {
+        width: 121.83px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid rgb(199, 192, 192);
+        margin-top: 8px;
+      }
+      #imgDiv button {
+        width: 121.83px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid rgb(199, 192, 192);
+        background-color: transparent;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+      }
+      #imgDiv {
+        width: 122px;
+        margin-left: 15px;
+      }
+      #inputDiv {
+        margin-top: 5px;
+        margin-left: 15px;
+      }
+      #main label,
+      #smallInputDiv label {
+        font-weight: 550;
+        font-family: "open Sans", sans-serif;
+        color: rgb(56, 54, 54);
+      }
+      #btn1,
+      #btn2 {
+        display: block;
+        width: 273.66px;
+        height: 34px;
+        background-color: #2ecc71;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        margin-left: -120px;
+      }
+      #smallInputDiv {
+        width: 455.5px;
+        height: 276px;
+        margin-left: 200px;
+        border: 1px solid rgb(224, 213, 213);
+        margin-bottom: 80px;
+      }
+      #more {
+        display: flex;
+        width: 273.66px;
+        height: 34px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border-radius: 5px;
+        border: 1px solid rgb(199, 192, 192);
+        background-color: transparent;
+      }
+      span {
+        margin-left: 5px;
+      }
+      form {
+        width: 122px;
+        margin-top: 15px;
+        margin-left: 15px;
+      }
+      #btn2 {
+        margin-left: 15px;
+      }
+      #more:hover {
+        background-color: rgb(245, 245, 245);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainDiv"></div>
+    <div id="list"></div>
+    <div id="Addnewex">
+      <h3>Add new exercise</h3>
+    </div>
+    <div id="main">
+      <div id="imgDiv">
+        <button>Select picture</button>
+        <label>Video URL</label>
+        <input type="text" />
+      </div>
+      <div id="inputDiv">
+        <form>
+          <label>Exercise name *</label>
+          <input type="text" required id="exerciseName" />
+          <label>Muscle group *</label>
+          <select id="muscleGroup">
+            <option value="Chest">Chest</option>
+            <option value="Biceps">Biceps</option>
+            <option value="Triceps">Triceps</option>
+            <option value="Back">Back</option>
+            <option value="Shoulder">Shoulder</option>
+            <option value="Legs">Legs</option>
+            <option value="Abdominal">Abdominal</option>
+            <option value="Combined">Combined</option>
+          </select>
+          <label>Description</label>
+          <input type="text" id="description" />
+          <label>Steps</label>
+          <input type="text" id="steps" />
+          <label>Tips</label>
+          <input type="text" id="tips" />
+          <label>Warnings</label>
+          <input type="text" id="warning" />
+        </form>
+        <button id="btn1">Add exercise</button>
+      </div>
+    </div>
+    <div id="smallInputDiv">
+      <form>
+        <label>Exercise name *</label>
+        <input type="text" required id="exerciseName1" />
+        <label>Muscle group *</label>
+        <select id="muscleGroup1">
+          <option value="Chest">Chest</option>
+          <option value="Biceps">Biceps</option>
+          <option value="Triceps">Triceps</option>
+          <option value="Back">Back</option>
+          <option value="Shoulder">Shoulder</option>
+          <option value="Legs">Legs</option>
+          <option value="Abdominal">Abdominal</option>
+          <option value="Combined">Combined</option>
+        </select>
+      </form>
+      <button id="more">
+        More
+        <!-- <h1>></h1> -->
+        <span class="fa-solid fa-angle-down"></span>
+      </button>
+      <button id="btn2">Add exercise</button>
+    </div>
+  </body>
+</html>
+
+<script type="module" src="../scriptss/myexercise.js"></script>
