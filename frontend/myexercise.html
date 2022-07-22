@@ -11,6 +11,11 @@
     ></script>
     <link rel="stylesheet" href="../styless/main.css" />
     <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
       #Addnewex {
         width: 455.5px;
         height: 38.6px;
@@ -32,7 +37,7 @@
       #main {
         width: 455.5px;
         height: 523px;
-        margin-left: 200px;
+        margin-left: 10px;
         border: 1px solid rgb(224, 213, 213);
         display: flex;
         display: none;
@@ -104,8 +109,9 @@
       #smallInputDiv {
         width: 455.5px;
         height: 276px;
-        margin-left: 200px;
+        margin-left: 2px;
         border: 1px solid rgb(224, 213, 213);
+        display: inline;
         margin-bottom: 80px;
       }
       #more {
@@ -135,69 +141,211 @@
         background-color: rgb(245, 245, 245);
         cursor: pointer;
       }
+      #mainFather {
+        display: flex;
+        width: 1140px;
+        margin: auto;
+        justify-content: space-between;
+      }
+      #myExercise {
+        border-bottom: 1px solid rgb(231, 226, 226);
+        width: 650px;
+        height: 50px;
+        margin-top: -20px;
+      }
+      #myExercise h1 {
+        font-weight: 500;
+        font-size: 30px;
+      }
+      #noresult {
+        border: 1px solid rgb(199, 192, 192);
+        margin-top: 20px;
+        width: 650px;
+      }
+      #noresult h3 {
+        font-weight: 500;
+        padding: 10px 0px 10px 10px;
+        color: rgb(105, 102, 102);
+      }
+      #table {
+        width: 650px;
+      }
+      .img1 {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 30%;
+        filter: opacity(0.4) drop-shadow(0 0 0 white);
+      }
+      .img1:hover {
+        filter: opacity(1);
+        cursor: pointer;
+      }
+
+      .div2,
+      .div3,
+      .div4,
+      .div5 {
+        border: 1px solid rgb(199, 192, 192);
+      }
+      .div1 {
+        display: flex;
+      }
+      .div2 {
+        width: 100%;
+        height: 56.8px;
+        background-color: rgb(245, 245, 245);
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+      }
+      .div3 {
+        width: 117px;
+        height: 57px;
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        border-right: none;
+        border-top: 1px solid rgb(241, 233, 233);
+        border-bottom: 1px solid rgb(241, 233, 233);
+      }
+      .div5 {
+        width: 48.44px;
+        height: 57px;
+        border: 1px solid rgb(241, 233, 233);
+        border-bottom: 1px solid rgb(241, 233, 233);
+        background-color: rgba(250, 250, 250, 0.8);
+        position: relative;
+      }
+      .div5:hover {
+        background-color: transparent;
+      }
+      .div4 {
+        width: 484.54px;
+        height: 57px;
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        border-right: none;
+        border: 1px solid rgb(241, 233, 233);
+        border-bottom: 1px solid rgb(241, 233, 233);
+      }
+      .h32 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .h31 {
+        color: #428bca;
+        font-size: 16px;
+      }
+      .h33 {
+        font-weight: 500;
+        color: rgb(59, 58, 58);
+      }
+      #alert {
+        display: flex;
+        width: 1140px;
+        height: 52px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(223, 240, 216);
+        margin-top: 15px;
+        margin-bottom: 25px;
+        padding: 0px 15px;
+        border-radius: 5px;
+        display: none;
+      }
+      #alert h3 {
+        color: grey;
+        font-weight: 500;
+      }
+      #x:hover {
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
     <div id="mainDiv"></div>
+    <div id="alert">
+      <h3>New exercise added</h3>
+      <div><h3 id="x">x</h3></div>
+    </div>
     <div id="list"></div>
-    <div id="Addnewex">
-      <h3>Add new exercise</h3>
-    </div>
-    <div id="main">
-      <div id="imgDiv">
-        <button>Select picture</button>
-        <label>Video URL</label>
-        <input type="text" />
+    <div id="grandfather">
+      <div id="Addnewex">
+        <h3>Add new exercise</h3>
       </div>
-      <div id="inputDiv">
-        <form>
-          <label>Exercise name *</label>
-          <input type="text" required id="exerciseName" />
-          <label>Muscle group *</label>
-          <select id="muscleGroup">
-            <option value="Chest">Chest</option>
-            <option value="Biceps">Biceps</option>
-            <option value="Triceps">Triceps</option>
-            <option value="Back">Back</option>
-            <option value="Shoulder">Shoulder</option>
-            <option value="Legs">Legs</option>
-            <option value="Abdominal">Abdominal</option>
-            <option value="Combined">Combined</option>
-          </select>
-          <label>Description</label>
-          <input type="text" id="description" />
-          <label>Steps</label>
-          <input type="text" id="steps" />
-          <label>Tips</label>
-          <input type="text" id="tips" />
-          <label>Warnings</label>
-          <input type="text" id="warning" />
-        </form>
-        <button id="btn1">Add exercise</button>
+      <div id="mainFather">
+        <div id="main">
+          <div id="imgDiv">
+            <button>Select picture</button>
+            <label>Video URL</label>
+            <input type="text" />
+          </div>
+          <div id="inputDiv">
+            <form>
+              <label>Exercise name *</label>
+              <input type="text" required id="exerciseName" />
+              <label>Muscle group *</label>
+              <select id="muscleGroup">
+                <option value="Chest">Chest</option>
+                <option value="Biceps">Biceps</option>
+                <option value="Triceps">Triceps</option>
+                <option value="Back">Back</option>
+                <option value="Shoulder">Shoulder</option>
+                <option value="Legs">Legs</option>
+                <option value="Abdominal">Abdominal</option>
+                <option value="Combined">Combined</option>
+              </select>
+              <label>Description</label>
+              <input type="text" id="description" />
+              <label>Steps</label>
+              <input type="text" id="steps" />
+              <label>Tips</label>
+              <input type="text" id="tips" />
+              <label>Warnings</label>
+              <input type="text" id="warning" />
+            </form>
+            <button id="btn1">Add exercise</button>
+          </div>
+        </div>
+        <div id="smallInputDiv">
+          <form>
+            <label>Exercise name *</label>
+            <input type="text" required id="exerciseName1" />
+            <label>Muscle group *</label>
+            <select id="muscleGroup1">
+              <option value="Chest">Chest</option>
+              <option value="Biceps">Biceps</option>
+              <option value="Triceps">Triceps</option>
+              <option value="Back">Back</option>
+              <option value="Shoulder">Shoulder</option>
+              <option value="Legs">Legs</option>
+              <option value="Abdominal">Abdominal</option>
+              <option value="Combined">Combined</option>
+            </select>
+          </form>
+          <button id="more">
+            More
+            <!-- <h1>></h1> -->
+            <span class="fa-solid fa-angle-down"></span>
+          </button>
+          <button id="btn2">Add exercise</button>
+        </div>
+        <div id="noResultFather">
+          <div id="myExercise">
+            <h1>My exercises</h1>
+          </div>
+          <div id="noresult">
+            <h3>No results found</h3>
+          </div>
+          <div id="table"></div>
+        </div>
       </div>
-    </div>
-    <div id="smallInputDiv">
-      <form>
-        <label>Exercise name *</label>
-        <input type="text" required id="exerciseName1" />
-        <label>Muscle group *</label>
-        <select id="muscleGroup1">
-          <option value="Chest">Chest</option>
-          <option value="Biceps">Biceps</option>
-          <option value="Triceps">Triceps</option>
-          <option value="Back">Back</option>
-          <option value="Shoulder">Shoulder</option>
-          <option value="Legs">Legs</option>
-          <option value="Abdominal">Abdominal</option>
-          <option value="Combined">Combined</option>
-        </select>
-      </form>
-      <button id="more">
-        More
-        <!-- <h1>></h1> -->
-        <span class="fa-solid fa-angle-down"></span>
-      </button>
-      <button id="btn2">Add exercise</button>
     </div>
   </body>
 </html>
