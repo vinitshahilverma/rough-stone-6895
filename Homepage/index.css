@@ -197,3 +197,12 @@ font-weight: 200;
     margin-left: 80px;
     margin-top: 60px;
 }
+/* COUNT */
+#count{
+    height: 350px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E7EA;
+}
