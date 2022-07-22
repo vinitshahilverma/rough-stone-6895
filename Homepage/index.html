@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <style>
-
-    /* NAVBAR */
-    nav{
+nav{
         position:fixed;
         top: 0;
         left: 0;
@@ -19,6 +19,9 @@
         box-sizing: border-box;
         background: rgba(0,0,0,0.4);
         border-bottom: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .nav .logo{
         padding: 22px 20px;
@@ -36,25 +39,42 @@
         padding: 0;
         display: flex;
     }
-nav ul li a{
-    line-height: 80px;
-    color: #fff;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
+
 nav ul li a:hover{
     background: rgba(0,0,0,0.7);
 }
+.logo{
+    margin-top: 15px;
+}
+/* #pdiv{
+        display: flex;
+    } */
+    #register{
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-right: 10px;
+    }
+    #sigin{
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-right:15px;
+    }
 </style>
 <body>
     <nav>
         <div class="logo"><a href="index.html"><img src="https://www.gymwolf.com/img/gymwolf.png" alt=""></a> </div>
         <ul>
-            <li><a href="">Register</a></li>
-            <li><a href="">sign in</a></li>
+            <li><a id="register" href="">Register</a></li>
+            <li><a id="sigin" href="">Sign in</a></li>
+            <li><span style="color:white" class="material-symbols-outlined">
+                search
+                </span></li>
         </ul>
     </nav>
 
@@ -114,6 +134,20 @@ nav ul li a:hover{
         </div>
         <div><img id="a11" src="c.png" alt=""></div>
     </div>
+    <!-- COUNT -->
+
+    <div id="count"><img src="d.png"/></div>
+
+
+
+    <!-- FOOTER -->
+    <div id="footer-top">
+  
+</div>
     
 </body>
 </html>
+<script type="module">
+    import footer from "./footer.js"
+    document.getElementById("footer-top").innerHTML=footer()
+    </script>
