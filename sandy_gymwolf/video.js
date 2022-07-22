@@ -79,8 +79,33 @@ console.log(data)
 let con=document.getElementById("f")
 con.innerHTML=null
 con.setAttribute("id","con")
+
+
 let videos=document.createElement("img")
 videos.src=data.bigImg
 videos.setAttribute("id","pic")
 con.append(videos)
+
+// imgcon=document.getElementById("imgdiv")
+// let img=document.getElementById("img")
+// img.src=data.bigImg1
+// imgcon.append(img)
+images = new Array;
+images[0] = data.bigImg1;
+images[1] = data.bigImg;
+setInterval( function() {
+    changeImage()
+}, 1000);
+x = 0;
+function changeImage() {
+    document.getElementById('pic').src = images[x];
+
+    if ( x < 1 ) {
+        x += 1;
+    } else if ( x = 2 ) {
+        x = 0;
+    }
+}
+
+
  })
