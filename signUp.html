@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #major {
+            /* border: solid red; */
+            display: flex;
+            gap: 20px;
+            /* padding:20px; */
+        }
+
+        #major>div {
+            /* border: solid green; */
+        }
+
+        #major>div:first-child {
+            width: 80%;
+            height: 700px;
+            line-height: 54px;
+            ;
+
+        }
+
+        #major>div:last-child {
+            text-align: center;
+
+        }
+
+        #major>div:last-child>img {
+            height: 30%;
+        }
+
+        .inc {
+            padding: 5px;
+            height: 40px;
+            width: 500px;
+            margin-top: 20px;
+            border: transparent;
+            background-color: rgb(211, 211, 211);
+            ;
+        }
+
+        #right {
+            background-color: rgb(211, 211, 211);
+            ;
+            height: 450px;
+        }
+    </style>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <ul class="nav-tabs nav nav-justify">
+            <li class="nav-item">
+                <a href="#home" class="nav-link" data-toggle="tab">General</a>
+            </li>
+            <li class="nav-item">
+                <a href="#measur" class="nav-link" data-toggle="tab">Body measurments</a>
+            </li>
+            <li class="nav-item">
+                <a href="#private" class="nav-link" data-toggle="tab">Privacy</a>
+            </li>
+        </ul>
+
+        <div class="tab-content container" id="major">
+            <!-- <div id="major"> -->
+
+            <div class="tab-pane active" id="home">
+                <form action="">
+                    <h1>General</h1>
+                    <table>
+                        <tr>
+                            <td>Email:</td>
+                            <td>
+                                <input type="email" id="email" placeholder="Email" class="inc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Name:</td>
+                            <td>
+                                <input type="text" id="name" placeholder="Name" class="inc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gender:
+                            </td>
+                            <td>
+                                <label for="male">
+                                    <input type="radio" name="gender" id="male">Male
+                                </label>
+                                <label for="female">
+                                    <input type="radio" name="gender" id="female">Female
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Birth Date:</td>
+                            <td>
+                                <input type="date" placeholder="Date of Birth" id="date" class="inc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td>
+                                <input type="password" id="password" class="inc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Confirm password:</td>
+                            <td>
+                                <input type="password" id="pass2" class="inc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Preferred units:</td>
+                            <td>
+                                <select id="units" class="inc">
+                                    <option value="units">Metric (kgs)</option>
+                                    <option value="units">Imperial (lbs)</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Timezone:</td>
+                            <td>
+                                <select id="timezone" class="inc">
+                                    <option value="timezone">
+                                        <h6>Africa</h6>
+                                    </option>
+                                    <option value="timezone">Abidjan</option>
+                                    <option value="timezone">Accra</option>
+                                    <option value="timezone">Algiers</option>
+                                    <option value="timezone">Asmara</option>
+                                    <option value="timezone">Bamako</option>
+                                    <option value="timezone">Bangui</option>
+                                    <option value="timezone">Banjul</option>
+                                    <option value="timezone">Bissau</option>
+                                    <option value="timezone">Blantyre</option>
+                                    <option value="timezone">Brazzaaville</option>
+                                    <option value="timezone">Bujumbura</option>
+                                    <option value="timezone">Cairo</option>
+                                    <option value="timezone">Casablanca</option>
+                                    <option value="timezone">Ceuta</option>
+                                    <option value="timezone">Conakry</option>
+                                    <option value="timezone">Dakar</option>
+                                    <option value="timezone">Dar es Salaam</option>
+                                    <option value="timezone">Djibouti</option>
+                                    <option value="timezone">Douala</option>
+                                    <option value="timezone">El Aaiun</option>
+                                    <option value="timezone">freetown</option>
+                                    <option value="timezone">Gaborone</option>
+                                    <option value="timezone">Harare</option>
+                                    <option value="timezone">Johannesburg</option>
+                                    <option value="timezone">Juba</option>
+                                    <option value="timezone">Kampala</option>
+                                    <option value="timezone">Khartoum</option>
+                                    <option value="timezone">Kigali</option>
+                                    <option value="timezone">Kinshasa</option>
+                                    <option value="timezone">Lagos</option>
+                                    <option value="timezone">Libreville</option>
+                                    <option value="timezone">Lome</option>
+                                    <option value="timezone">Luanda</option>
+                                    <option value="timezone">Lubumbashi</option>
+                                    <option value="timezone">Lusaka</option>
+                                    <option value="timezone">Malabo</option>
+                                    <option value="timezone">Maputo</option>
+                                    <option value="timezone">Maseru</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>My gym:</td>
+                            <td>
+                                <input type="text" class="inc">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your description for
+                                profile page:</td>
+                            <td>
+                                <textarea class="inc"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="save" id="sub">
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+
+            <div class="tab-pane" id="measur">
+                <h1>Body measurments</h1>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>Height:</td>
+                            <td>
+                                <input type="text">
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Waist</td>
+                            <td>
+                                <input type="text">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hips</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Neck</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" value="save" id="sub">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="tab-pane" id="private">
+               <h1>Privacy</h1>
+               <h6>Your privacy is public</h6>
+               <p>Make your workout private so only you can see them</p>
+              
+               <input type="checkbox">Send e-mail notification when recieving new messages.
+            </label><br>
+            <input type="submit" value="save" id="sub">
+            </div>
+
+
+            <div id="right">
+                <img src="https://www.gymwolf.com/user_images/e994377371b9b9b4fe9c5e42c9286f60_.jpg" alt="Error"><br>
+                <input type="file" />
+                <h2>0</h2>
+                <p>Workout added</p>
+                <h2>0 kg</h2>
+                <p>Lifted</p>
+            </div>
+
+
+            <!-- </div> -->
+
+
+            <!-- div major end -->
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="./scripts/signup.js"></script>
