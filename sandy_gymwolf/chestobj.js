@@ -16,11 +16,12 @@ con.append(video,photo)
 
 imgcon=document.getElementById("imgdiv")
 let img=document.getElementById("img")
-img.src=data.bigImg1
+img.src=data.bigImg
 imgcon.append(img)
 images = new Array;
 images[0] = data.bigImg1;
 images[1] = data.bigImg;
+
 setInterval( function() {
     changeImage()
 }, 1000);

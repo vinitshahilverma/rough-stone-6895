@@ -214,20 +214,21 @@
     width: 100%;
     cursor: pointer;
 }
-.content{
+#content{
     position: absolute;
     background: rgba(46, 105, 232, 0.6); 
    width: 17.3%;
    height: 41px;
    margin-top: -41px;
 }
-.content>h3{
+#content>h3{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
     color: #f1f1f1;
+    cursor: pointer;
 }
-.content_div{
+.child>div{
     position: absolute;
     cursor: pointer;
     background: rgba(0, 0, 0, 0.7); 
@@ -244,7 +245,7 @@
     height: 55px;
     margin-top: -54px;
 }
-.content_div>h3{
+.child>div>h3{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
