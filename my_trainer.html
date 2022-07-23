@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trainer</title>
+
+    <style>
+        #main {
+            width: 80%;
+            display: flex;
+            margin: auto;
+            margin-bottom: 60px;
+            border: 1px solid;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        #container {
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            margin: auto;
+            /* border: 1px solid; */
+        }
+
+        #container>div {
+            display: flex;
+            border: 1px solid rgb(200, 198, 198);
+            width: 100%;
+
+            /* height: 300px; */
+            padding: 10px;
+            border-radius: 10px;
+            padding-bottom: 14%;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        }
+
+        button {
+            width: 250px;
+            height: 50px;
+            /* border-radius: 20px; */
+            color: green;
+            border-color: rgb(88, 70, 246);
+            border: 1px solid;
+        }
+
+        button:hover {
+            background-color: green;
+            color: white;
+        }
+
+        #para {
+            width: 75%;
+            text-align: center;
+            margin: auto;
+            font-size: 22px;
+            border: 1px solid;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #snd {
+            margin-top: -25px;
+            margin-left: 30px;
+        }
+
+        #snd>p {
+            font-size: 22px;
+        }
+
+        #snd>h2 {
+            font-size: 30px;
+        }
+
+        #main2 {
+            width: 80%;
+            display: flex;
+            margin: auto;
+            margin-bottom: 60px;
+            border: 1px solid;
+        }
+
+        #second {
+            margin-top: -25px;
+            margin-left: 30px;
+        }
+
+        #second>p {
+            font-size: 22px;
+        }
+
+        #second>h2 {
+            font-size: 30px;
+        }
+
+        #allp{
+            width: 70%;
+            margin: auto;
+            font-size: 22px;
+            border: 1px solid red;
+        }
+        span{
+            font-size: 30px;
+            font-weight: bold;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="para">
+        <p>Gymwolf has certified personal trainers that provide you with customized workout plans depending on your
+            goal. Our trainer tracks Your progress, coach motivate you daily through our web and smartphone app.</p>
+    </div>
+    <hr>
+    <h1>Our trainers</h1>
+    <div id="main">
+
+        <div id="fst">
+            <img src="https://www.gymwolf.com/user_images/0db67d7bc0ced122b636098c6c7b6c9b_1530024726.jpg" alt="Error">
+        </div>
+        <div id="snd">
+            <h2>Siim Savisaar</h2>
+            <p>Siim is a university-trained practising physiotherapist, personal trainer and a world-class bodybuilder.
+                He’s a strong believer in what doesn’t challenge you, won’t change you. Thus, you should expect to be
+                challenged if you work with him. Siim has extensive experience, from working with people with special
+                needs to training elite athletes from freestyle skiing to bodybuilding and bikini fitness. His
+                speciality is physical conditioning along with strength and hypertrophy programs.
+            </p>
+            <button>Choose this trainer</button>
+        </div>
+    </div>
+
+    <div id="main2">
+        <div id="first">
+            <img src="https://www.gymwolf.com/user_images/a0e65be4dba72b3d37d0e490a8173d73_1596110163.jpg" alt="Error">
+
+        </div>
+        <div id="second">
+            <h2>Taavi Merisalu</h2>
+            <p>Taavi on lõpetanud Tartu Ülikooli sporditeaduste ja füsioteraapia instituudi. Tema spetsialiteet on
+                raskejõustik, rahvasport ja personaaltreeningud. Enesetäiendamist ei ole ta lõpetanud - täiendab ennast
+                pidevalt tänapäevaste uuringutega, et hoida oma meetodid võimalikult teaduspõhised. Lisaks teiste
+                treenimisele treenib ta ka iseennast ja on väga edukas kulturist Eestis. Mitmeid kordi on saavutanud
+                medalikohti Eesti sisevõistlustel ja ka välisvõistlustel. Taavi treenitavate käes on üle 20 Eesti
+                rekordi jõutõstmises. Lisaks rekorditele on tema õpilased toonud Eestile 5 medalit Euroopa
+                Meistrivõistlustelt.</p>
+
+            <button>Choose this trainer</button>
+        </div>
+
+    </div>
+    <!-- how it wokrs -->
+    <h1>How does it work?</h1>
+    <div id="allp">
+        
+        <p><span>1.</span> Choose the personal trainer that fits you the best and make the purchase.</p>
+        <p><span>2.</span>  After the purchase your personal trainer will contact you through Gymwolf. Describe your goals and your
+            trainer will then make you customized workout plan.</p>
+        <p><span>3.</span>  Achieve your goals by following the workout plan and tracking workouts in Gymwolf. Personal trainer will keep
+            an eye on your workout ,also giving feedback and motivation.</p>
+    </div>
+
+
+
+    <!-- pricing  -->
+    <h1>Pricing</h1>
+    <div id="container">
+        <div>
+            <h2>BRONZE</h2>
+            <p>USD 45 <span>/ 1 month</span></p>
+            <p>&#10003; Peroanal workout plan</p>
+            <p>&#10003; Weekly progress reviews</p>
+            <p>&#10003; Chat with your trainer</p>
+            <p>&#10003; Gymwolf pro features</p>
+            <div>
+                <button class="btnn">GET YOUR TRAINER</button>
+            </div>
+        </div>
+        <div>
+            <h2>GOLD</h2>
+            <p>USD 115 <span>/3 month</span></p>
+            <p>&#10003; Personal workout plan</p>
+            <p>&#10003; Monthly workout plan updates</p>
+            <p>&#10003; Weekly progress reviews</p>
+            <p>&#10003; Chat with your trainer</p>
+            <p>&#10003; Gymwolf Pro features</p>
+            <div>
+                <button class="btnn">GET YOUR TRAINER</button>
+            </div>
+        </div>
+        <div>
+            <h2>PLATINUM</h2>
+            <p>USD 216 <span>/ 6 month</span></p>
+            <p>&#10003; Personal workout plan</p>
+            <p>&#10003; Monthly workout plan updates</p>
+            <p>&#10003; Weekly progress reviews</p>
+            <p>&#10003; Chat with your trainer</p>
+            <p>&#10003; Gymwolf Pro features</p>
+            <div>
+                <button class="btnn">GET YOUR TRAINER</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
