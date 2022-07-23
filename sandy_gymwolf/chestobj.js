@@ -1,4 +1,22 @@
 
+import footer from "../Homepage/footer.js"
+
+document.getElementById("footer-top").innerHTML=footer()
+
+
+
+import navbar from "/rough-stone-6895/sandy_gymwolf/sandy_navbar.js"
+document.getElementById("nav").innerHTML=navbar()
+
+
+let da=JSON.parse(localStorage.getItem("userData"))
+  
+da.forEach(function(el){
+  console.log(el.name)
+document.getElementById("baljor").innerHTML=el.name
+})
+
+
 let data=JSON.parse(localStorage.getItem("data"))
 console.log(data)
 
@@ -14,18 +32,18 @@ photo.innerText=data.photo
 con.append(video,photo)
 
 
-imgcon=document.getElementById("imgdiv")
+let imgcon=document.getElementById("imgdiv")
 let img=document.getElementById("img")
 img.src=data.bigImg
 imgcon.append(img)
-images = new Array;
+let images = new Array;
 images[0] = data.bigImg1;
 images[1] = data.bigImg;
 
 setInterval( function() {
     changeImage()
 }, 1000);
-x = 0;
+let x = 0;
 function changeImage() {
     document.getElementById('img').src = images[x];
 
@@ -49,6 +67,9 @@ fault.setAttribute("id","fault")
 let muscleGroup=document.createElement("p")
 muscleGroup.innerText=data.muscleGroup
 muscleGroup.setAttribute("id","muscleGroup")
+muscleGroup.addEventListener("click",function(){
+    window.location.href="chest.html"
+})
 
 let step=document.createElement("h2")
 step.innerText=data.stepname
@@ -71,6 +92,9 @@ tips.setAttribute("id","tips")
 let button=document.createElement("button")
 button.innerText="❮ All exercise"
 button.setAttribute("id","btn")
+button.addEventListener("click",function(){
+    window.location.href="/rough-stone-6895/frontend/main.html"
+})
 
 
 
