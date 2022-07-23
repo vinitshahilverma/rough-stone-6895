@@ -9,9 +9,9 @@ let list = () => {
 
     return `<div id="first">
     <ul>
-      <li>Exercise List</li>
-      <li>My Exercise</li>
-      <li>Workout Plan</li>
+      <li><a href="main.html">Exercise List</a></li>
+      <li><a href="myexercise.html">My Exercise</a></li>
+      <li id="third"><a href="workout.html">Workout Plan</a></li>
     </ul>
   </div>
   <div>

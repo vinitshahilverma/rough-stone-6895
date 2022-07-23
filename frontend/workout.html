@@ -28,7 +28,7 @@
         border: 1px solid rgb(195, 183, 183);
         border-bottom:1px solid rgb(247, 243, 243);
       }
-      #workoutList>div:last-child{
+      #workoutList>div:last-child, #verma>div:last-child{
         border-bottom:1px solid rgb(195, 183, 183);
       }
       .div1 {
@@ -69,7 +69,7 @@
         font-size: 12px;
         margin-top: 3px;
       }
-      .btn {
+      .btn{
         width: 204.4px;
         height: 34px;
         background-color: transparent;
@@ -80,7 +80,22 @@
         border-radius: 3px;
         margin-top: 7px;
       }
-      .btn > h3 {
+      .btn1{
+        width: 150px;
+        height: 34px;
+        background-color: transparent;
+        border: 1px solid rgb(173, 169, 169);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin-top: 7px;
+        margin-left:110px;
+      }
+      .btn1>h1{
+        margin-top: 20px;
+      }
+      .btn > h3,.btn1>h3 {
         font-weight: 300;
         color: rgb(57, 57, 57);
       }
@@ -130,12 +145,66 @@
         border: none;
         border-radius: 3px;
       }
-
+      #inputList{
+        width:1140px;
+        margin:auto;
+      }
+      #inputList h1{
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 20px;
+      }
+      #shahil{
+        margin-top: 40px;
+        border-bottom: 1px solid rgb(239, 230, 230);
+      }
+     #p{
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 5px;
+      background-color:rgb(217,237,247);
+      color: rgb(28, 97, 132);
+      display:flex;
+     }
+     #p>p{
+      font-weight: 500;
+     }
+     #alert {
+        display: flex;
+        width: 1140px;
+        height: 52px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(223, 240, 216);
+        margin-top: 15px;
+        margin-bottom: 25px;
+        padding: 0px 15px;
+        border-radius: 5px;
+        display: none;
+      }
+      #alert h3 {
+        color: grey;
+        font-weight: 500;
+      }
+      #x:hover {
+        cursor: pointer;
+      }
+     
     </style>
   </head>
   <body>
     <div id="mainDiv"></div>
+    <div id="alert">
+      <h3>Workout plan added to "My workout plans"</h3>
+      <div><h3 id="x">x</h3></div>
+    </div>
     <div id="list"></div>
+    <div id="inputList">
+    <div id="shahil"><h1>My workout plans</h1></div>
+    <div id="p"><P>You have not added any workout plans. You can use workout plans as templates to create new workouts. On the "New Workout" page select your previously saved workout plan and all the exercises from the workout plan will be added to the new workout.</P></div>
+    <div id="verma"></div>
+  </div>
     <div id="workoutList">
       <div id="baby">
         <h3>Popular workout plans</h3>
@@ -156,6 +225,7 @@
           <button id="class1"><span <i class="fa-solid fa-magnifying-glass"></i></span>Search</button>
         </div>
       </div>
+      <div id="baby2"></div>
     </div>
   </body>
 </html>
