@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Workout</title>
+    <script
+      src="https://kit.fontawesome.com/3e2211948f.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../styless/main.css" />
     <style>
       #workoutList {
         width: 1140px;
         margin: auto;
+        margin-bottom: 80px;
       }
       #workoutList img {
         display: block;
@@ -17,37 +22,141 @@
         border-radius: 50%;
         margin-left: 20px;
       }
+      
       .div {
         display: flex;
-        border: 1px solid;
+        border: 1px solid rgb(195, 183, 183);
+        border-bottom:1px solid rgb(247, 243, 243);
+      }
+      #workoutList>div:last-child{
+        border-bottom:1px solid rgb(195, 183, 183);
       }
       .div1 {
         width: 77px;
-        border: 1px solid greenyellow;
+        border-right: 1px solid rgb(195, 183, 183);
         display: grid;
         justify-content: center;
         align-items: center;
       }
       .div2 {
-        border: 1px solid red;
-        width: 853px;
+        width: 872px;
+        padding-left: 10px;
       }
       .div3 {
-        border: 1px solid orchid;
-        width: 210px;
+        width: 222px;
+      }
+
+      .h31 {
+        margin-top: 12px;
+        font-weight: 500;
+        font-size: 15px;
+        color: rgb(57, 57, 57);
+        margin-bottom: 8px;
+      }
+      .h32 {
+        margin-top: 12px;
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 15px;
+        color: rgb(57, 57, 57);
+      }
+      .h3 {
+        margin-top: 8px;
+        color: #428bca;
+      }
+      .p {
+        color: rgb(57, 57, 57);
+        font-size: 12px;
+        margin-top: 3px;
       }
       .btn {
         width: 204.4px;
         height: 34px;
         background-color: transparent;
-        border: 1px solid rgb(199, 192, 192);
+        border: 1px solid rgb(173, 169, 169);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin-top: 7px;
       }
+      .btn > h3 {
+        font-weight: 300;
+        color: rgb(57, 57, 57);
+      }
+      #baby{
+        display: flex;
+        width: 1140px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #babyBaby{
+        width:441px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 120px;
+        margin-bottom: 20px;
+      }
+      #baby>h3{
+        font-size: 23px;
+        font-weight: 500;
+        margin-top: 0px;
+        color: rgb(57, 57, 57);
+      }
+      #search{
+        width:190.8px;
+        height: 34px;
+        padding-left: 8px;
+        border-radius: 3px;
+        border: 1px solid rgb(173, 169, 169);
+        display: block;
+       outline:rgb(11, 75, 237) ;
+      }
+      #select{
+         width:152.4px;
+         height:34px;
+         padding-left:8px;
+         color: rgb(57, 57, 57);
+         border-radius: 3px;
+         border: 1px solid rgb(173, 169, 169);
+         outline: rgb(11, 75, 237);
+      }
+      select+button{
+        height: 34px;
+        width:86.98px;
+        background-color: #428bca;
+        color: white;
+        border: none;
+        border-radius: 3px;
+      }
+
     </style>
   </head>
   <body>
     <div id="mainDiv"></div>
     <div id="list"></div>
-    <div id="workoutList"></div>
+    <div id="workoutList">
+      <div id="baby">
+        <h3>Popular workout plans</h3>
+        <div id="babyBaby">
+          <input type="text" id="search" placeholder="Search..." />
+          <select id="select">
+            <option value="">-Muscle group-</option>
+            <option value="Chest">Chest</option>
+            <option value="Biceps">Biceps</option>
+            <option value="Triceps">Triceps</option>
+            <option value="Back">Back</option>
+            <option value="Shoulder">Shoulder</option>
+            <option value="Legs">Legs</option>
+            <option value="Abdominal">Abdominal</option>
+            <option value="Combined">Combined</option>
+          </select>
+         
+          <button id="class1"><span <i class="fa-solid fa-magnifying-glass"></i></span>Search</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
