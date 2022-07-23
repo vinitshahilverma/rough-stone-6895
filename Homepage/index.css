@@ -7,7 +7,7 @@ video{
     width: 100%;
     /* position: relative; */
 }
-h1{
+#h1{
     position: absolute;
     margin-top: -500px;
     color:white;
@@ -39,6 +39,7 @@ text-shadow: 2px 2px 4px #000000;
 }
 #info{
     display: flex;
+    margin-top: -20px;
 }
 #info1{
     width: 100%;
