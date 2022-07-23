@@ -21,16 +21,20 @@
         }
 
         #container {
-            border: 1px solid;
+            /* border: 1px solid; */
+                justify-content: center;
+            margin: auto;
             width: 100%;
+            height: 800px;
+            background-color: rgb(230,231,234);
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: auto;
-            /* margin: auto; */
             /* border: 1px solid; */
         }
 
         #container>div {
+            background-color: white;
             display: flex;
             border: 1px solid rgb(200, 198, 198);
             width: 70%;
@@ -45,10 +49,16 @@
             align-items: center;
             flex-direction: column;
             justify-content: space-between;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
             /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
         }
-
+        #container p:hover{
+            width: 106%;
+            height: 40px;
+            background: linear-gradient(90deg, rgba(73,180,58,1) 2%, rgb(246,246,246) 2%);
+        }
+       
         button {
             width: 250px;
             cursor: pointer;
@@ -59,10 +69,7 @@
             border: 1px solid;
         }
 
-        button:hover {
-            /* background-color: rgb(85, 176, 85);
-            color: white; */
-        }
+        
 
         #para {
             width: 75%;
@@ -96,7 +103,7 @@
             width: 200px;
             cursor: pointer;
             border-radius: 10px;
-            background-color: rgb(85, 176, 85);
+            background-color: rgb(46,204,113);
             color: white;
             font-size: 20px;
         }
@@ -130,14 +137,33 @@
             /* border: 1px solid red; */
         }
 
-        span {
+        /* span {
             font-size: 40px;
             font-weight: bold;
             color: rgb(189, 185, 185);
-        }
+        } */
 
-        .header {
-            background-color: green;
+        #head {
+            margin-top: -10px;
+            width: 106%;
+            text-align: center;
+            color: white;
+            background-color: rgb(46,204,113);
+        }
+        .head:hover{
+            margin-top: -10px;
+            width: 106%;
+            text-align: center;
+            color: white;
+            background-color: rgb(46,204,113);
+
+        }
+        .head{
+            width: 106%;
+            text-align: center;
+            margin-top: -10px;
+            color: rgb(132,113,97);
+            background-color: rgb(204,204,204);
         }
 
         #first>img {
@@ -178,8 +204,9 @@
         }
        
         #btnnn{
-            background-color: rgb(85, 176, 85);
+            background-color: rgb(46,204,113);
             font-size: 20px;
+            
             border-radius: 5px;
             color: white;
         }
@@ -187,12 +214,118 @@
             /* background-color: rgb(85, 176, 85); */
             font-size: 20px;
             border-radius: 5px;
-            color: rgb(85, 176, 85);
+            color: rgb(46,204,113);
         }
         .btnn:hover{
-            background-color: rgb(85, 176, 85);
+            background-color: rgb(46,204,113);
             color: white;
         }
+        .usd{
+            font-size: 30px;
+        }
+        .p{
+            font-size: 20px;
+        }
+        .r{
+            font-size: 20px;
+            color: rgb(194,191,181);
+        }
+
+        #personal{
+            padding-top: 50px;
+            font-size: 20px;
+            text-align: center;
+            width: 80%;
+            /* border: 1px solid red ; */
+            margin: auto;
+
+        }
+        #personal>img{
+            width: 8%;
+        }
+        #personal>button{
+            cursor: pointer;
+            font-size: 20px;
+            border-color: rgb(210,210,210);
+            color: black;
+            border-radius: 5px;
+            background-color: white;
+        }
+        #personal>button:hover{
+            background-color: rgb(246,246,246);
+        }
+        #footer{
+    height: 250px;
+    display: flex;
+   width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top:60px ;
+    background-color: #26A9E1;
+}
+.top{
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 600;
+color: #041628;
+line-height: 1.4px;
+letter-spacing: 1px;
+
+
+}
+.below{
+    font-size: 16px;
+    letter-spacing: 1.4px;
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+margin-top: 20px;
+
+}
+.below>a{
+    text-decoration: none;
+    color: #ffff;
+}
+.below>a:hover{
+    text-decoration: underline;
+}
+#gapp{
+    width: 120px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#aapp{
+    width: 120px;
+    height: 42px;
+    margin-top: 15px;
+}
+#footer-top{
+    background-color: #26A9E1;
+}
+.below1{
+    font-size: 12px;
+    letter-spacing: 1.4px;
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+margin-top: 20px;
+margin-left: 15%;
+color: #fff;
+padding-bottom: 40px;
+}
+#cont{
+    padding-top: 30px;
+    border: 1px solid red;
+    width: 100%;
+    margin: auto;
+}
+#a11{
+    width: 50%;
+    margin: auto;
+}
+.var{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(229,231,233);
+}
     </style>
 </head>
 
@@ -247,16 +380,16 @@
     <h1>How does it work?</h1>
     <div class="allp">
 
-        <span>1</span>
+        <span class="var">1</span>
         <p> Choose the personal trainer that fits you the best and make the purchase.</p>
     </div>
     <div class="allp">
-        <span>2</span>
+        <span class="var">2</span>
         <p>After the purchase your personal trainer will contact you through Gymwolf. Describe your goals and your
             trainer will then make you customized workout plan.</p>
     </div>
     <div class="allp">
-        <span>3</span>
+        <span class="var">3</span>
         <p>Achieve your goals by following the workout plan and tracking workouts in Gymwolf. Personal trainer will keep
             an eye on your workout ,also giving feedback and motivation.</p>
     </div>
@@ -267,43 +400,69 @@
     <h1>Pricing</h1>
     <div id="container">
         <div>
-            <h2 class="header">BRONZE</h2>
-            <p><span>USD 45 </span>/ 1 month</p>
-            <p>&#10003; Peroanal workout plan</p>
+            <div class="head">
+            <h2>BRONZE</h2>
+        </div>
+            <p><span class="usd">USD 45 </span>/ 1 month</p>
+            <p><span class="p">&#10003; Peroanal</span>  <span class="r">workout plan</span> </p>
             
-            <p>&#10003; Weekly progress reviews</p>
-            <p>&#10003; Chat with your trainer</p>
-            <p>&#10003; Gymwolf pro features</p>
+            <p><span class="p">&#10003; Weekly</span>  <span class="r">progress reviews</span> </p>
+            <p><span class="p">&#10003; Chat</span>  <span class="r">with your trainer</span></p>
+            <p><span class="p">&#10003; Gymwolf</span>  <span class="r">pro features</span></p>
             <p>..</p>
             <div>
                 <button class="btnn">GET YOUR TRAINER</button>
             </div>
         </div>
         <div>
-            <h2 class="header">GOLD</h2>
-            <p><span>USD 115 </span>/3 month</p>
-            <p>&#10003; Personal workout plan</p>
-            <p>&#10003; Monthly workout plan updates</p>
-            <p>&#10003; Weekly progress reviews</p>
-            <p>&#10003; Chat with your trainer</p>
-            <p>&#10003; Gymwolf Pro features</p>
+            <div id="head">
+            <h2>GOLD</h2>
+        </div>
+            <p><span class="usd">USD 115 </span>/3 month</p>
+            <p><span class="p">&#10003; Personal</span>  <span class="r">workout plan</span></p>
+            <p><span class="p">&#10003; Monthly</span>  <span class="r">workout plan updates</span></p>
+            <p><span class="p">&#10003; Weekly</span> <span class="r">progress reviews</span></p>
+            <p><span class="p">&#10003; Chat</span>  <span class="r">with your trainer</span></p>
+            <p><span class="p">&#10003; Gymwolf</span>  <span class="r">Pro features</span></p>
             <div>
                 <button id="btnnn">GET YOUR TRAINER</button>
             </div>
         </div>
         <div>
-            <h2 class="header">PLATINUM</h2>
-            <p><span>USD 216month</span> / 6 month </p>
-            <p>&#10003; Personal workout plan</p>
-            <p>&#10003; Monthly workout plan updates</p>
-            <p>&#10003; Weekly progress reviews</p>
-            <p>&#10003; Chat with your trainer</p>
-            <p>&#10003; Gymwolf Pro features</p>
+            <div class="head">
+            <h2>PLATINUM</h2>
+        </div>
+            <p><span class="usd">USD 216month</span> / 6 month </p>
+            <p><span class="p">&#10003; Personal</span> <span class="r">workout plan</span></p>
+            <p><span class="p">&#10003; Monthly</span> <span class="r">workout plan updates</span></p>
+            <p><span class="p">&#10003; Weekly</span> <span class="r">progress reviews</span></p>
+            <p><span class="p">&#10003; Chat</span> <span class="r">with your trainer</span></p>
+            <p><span class="p">&#10003; Gymwolf</span> <span class="r">Pro features</span></p>
             <div>
                 <button class="btnn">GET YOUR TRAINER</button>
             </div>
         </div>
     </div>
+
+    <div id="personal">
+        <img src="https://www.gymwolf.com/img/trainer/become_trainer.svg" alt="error">
+        <h3>Become a personal trainer</h3>
+        <p>If you are qualified bodybuilding and fitness trainer, and want to join the Gymwolf, let us know!</p>
+        <button>Become a personal trainer </button>
+
+    </div>
+    <div id="cont">
+        <img id="a11" src="http://127.0.0.1:5501/Homepage/d.png" alt="error">
+    </div>
+
+    <div id="footer-top">
+  
+    </div>
 </body>
 
 </html>
+
+<script type="module">
+    import footer from "../Homepage/footer.js"
+    document.getElementById("footer-top").innerHTML=footer()
+    </script>
