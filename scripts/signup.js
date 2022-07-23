@@ -1,3 +1,7 @@
+import navbar from "../Homepage/navbar.js"
+    
+document.getElementById("nav").innerHTML=navbar()
+
 let form=document.querySelector("form")
 let userData=JSON.parse(localStorage.getItem("userData")) || []
 form.addEventListener("submit", function(event){
