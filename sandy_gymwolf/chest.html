@@ -1,109 +1,151 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>body</title>
-    <link rel="stylesheet" href="chest.css">
-</head>
-<body>
-      <div id="container">
-        <h1>Exercises</h1>
-      </div>
-      <div id="exercise_nav">
-       <div id="one">
+    <link rel="stylesheet" href="chest.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Exercises</h1>
+    </div>
+    <div id="exercise_nav">
+      <div id="one">
         <p>Exercise List</p>
-       </div>
-       <div id="two">
-           <div id="child1">
-            <p>My exercise</p>
-            <p> Workout plans</p>
-           </div>
-           <div id="btndiv"><button>+New workout plan</button></div>
-       </div>
       </div>
-
-      <div id="bottom_container">
-        <div id="type">
-          <h1 id="type_name">Chest</h1>
-          <div id="data"></div>
+      <div id="two">
+        <div id="child1">
+          <p>My exercise</p>
+          <p>Workout plans</p>
         </div>
-        <div id="chest">
-          <button>❮ All exercise</button>
-          <div id="btnd">
-            <div id="body_div">
-              <img onclick="any()" id="b_img" src="" alt="">
-              <div onclick="any()" id="content">
-                <h3 id="Any">Chest</h3>
-              </div>
-            </div>
-          <div  class="child">
-         <img id="img_chest" onclick="chest()" src="https://www.gymwolf.com/images/category_chest.jpg" alt="">
-         <div onclick="chest()" class="content_div">
-         <h3 id="chesst">Chest</h3>
-         </div>
-         </div>
-            <div class="child">
-              <img id="img_biceps" onclick="biceps()" src="https://www.gymwolf.com/images/category_biceps.jpg" alt="">
-              <div onclick="biceps()" class="content_div">
-                <h3 id="Biceps" >Biceps</h3>
-              </div>
-            </div>
+        <div id="btndiv"><button>+New workout plan</button></div>
+      </div>
+    </div>
 
-            <div class="child">
-              <img id="img_triceps" onclick="triceps()" src="https://www.gymwolf.com/images/category_triceps.jpg" alt="">
-              <div onclick="triceps()" class="content_div">
-                <h3 id="Triceps">Triceps</h3>
-              </div>
+    <div id="bottom_container">
+      <div id="type">
+        <h1 id="type_name">Chest</h1>
+        <div id="data"></div>
+      </div>
+      <div id="chest">
+        <button>❮ All exercise</button>
+        <div id="btnd">
+          <div id="body_div">
+            <img onclick="any()" id="b_img" src="" alt="" />
+            <div onclick="any()" id="content">
+              <h3 id="Any">Chest</h3>
             </div>
-
-            <div class="child">
-              <img id="img_back" onclick="back()"  src="https://www.gymwolf.com/images/category_back.jpg" alt="">
-              <div onclick="back()" class="content_div">
-                <h3 id="Back">Back</h3>
-              </div>
+          </div>
+          <div class="child">
+            <img
+              id="img_chest"
+              onclick="chest()"
+              src="https://www.gymwolf.com/images/category_chest.jpg"
+              alt=""
+            />
+            <div onclick="chest()" class="content_div">
+              <h3 id="chesst">Chest</h3>
             </div>
-
-            <div class="child">
-              <img id="img_shoulder" onclick="shoulder()" src="https://www.gymwolf.com/images/category_shoulder.jpg" alt="">
-              <div onclick="shoulder()" class="content_div">
-                <h3 id="Shoulder">Shoulder</h3>
-              </div>
+          </div>
+          <div class="child">
+            <img
+              id="img_biceps"
+              onclick="biceps()"
+              src="https://www.gymwolf.com/images/category_biceps.jpg"
+              alt=""
+            />
+            <div onclick="biceps()" class="content_div">
+              <h3 id="Biceps">Biceps</h3>
             </div>
+          </div>
 
-            <div class="child">
-              <img id="img_leg" onclick="leg()" src="https://www.gymwolf.com/images/category_legs.jpg" alt="">
-              <div onclick="leg()" class="content_div">
-                <h3 id="Leg">Legs</h3>
-              </div>
+          <div class="child">
+            <img
+              id="img_triceps"
+              onclick="triceps()"
+              src="https://www.gymwolf.com/images/category_triceps.jpg"
+              alt=""
+            />
+            <div onclick="triceps()" class="content_div">
+              <h3 id="Triceps">Triceps</h3>
             </div>
+          </div>
 
-            <div class="child">
-              <img id="img_abdominal" onclick="abdominal()" src="https://www.gymwolf.com/images/category_abdominal.jpg" alt="">
-              <div onclick="abdominal()" class="content_div">
-                <h3 id="Abdominal">Abdominal</h3>
-              </div>
+          <div class="child">
+            <img
+              id="img_back"
+              onclick="back()"
+              src="https://www.gymwolf.com/images/category_back.jpg"
+              alt=""
+            />
+            <div onclick="back()" class="content_div">
+              <h3 id="Back">Back</h3>
             </div>
+          </div>
 
-            <div class="child">
-              <img id="img_combined" onclick="combined()" src="https://www.gymwolf.com/images/category_combined.jpg" alt="">
-              <div onclick="combined()" class="content_div">
-                <h3 id="Combined">Combined</h3>
-              </div>
+          <div class="child">
+            <img
+              id="img_shoulder"
+              onclick="shoulder()"
+              src="https://www.gymwolf.com/images/category_shoulder.jpg"
+              alt=""
+            />
+            <div onclick="shoulder()" class="content_div">
+              <h3 id="Shoulder">Shoulder</h3>
             </div>
+          </div>
 
-            <div class="child">
-              <img id="img_cardio" onclick="cardio()" src="https://www.gymwolf.com/images/category_cardio.jpg" alt="">
-              <div onclick="cardio()" class="content_div">
-                <h3 id="Cardio">Cardio</h3>
-              </div>
+          <div class="child">
+            <img
+              id="img_leg"
+              onclick="leg()"
+              src="https://www.gymwolf.com/images/category_legs.jpg"
+              alt=""
+            />
+            <div onclick="leg()" class="content_div">
+              <h3 id="Leg">Legs</h3>
             </div>
+          </div>
 
-            
-             
+          <div class="child">
+            <img
+              id="img_abdominal"
+              onclick="abdominal()"
+              src="https://www.gymwolf.com/images/category_abdominal.jpg"
+              alt=""
+            />
+            <div onclick="abdominal()" class="content_div">
+              <h3 id="Abdominal">Abdominal</h3>
+            </div>
+          </div>
+
+          <div class="child">
+            <img
+              id="img_combined"
+              onclick="combined()"
+              src="https://www.gymwolf.com/images/category_combined.jpg"
+              alt=""
+            />
+            <div onclick="combined()" class="content_div">
+              <h3 id="Combined">Combined</h3>
+            </div>
+          </div>
+
+          <div class="child">
+            <img
+              id="img_cardio"
+              onclick="cardio()"
+              src="https://www.gymwolf.com/images/category_cardio.jpg"
+              alt=""
+            />
+            <div onclick="cardio()" class="content_div">
+              <h3 id="Cardio">Cardio</h3>
+            </div>
           </div>
         </div>
       </div>
-</body>
+    </div>
+  </body>
 </html>
 <script src="chest.js"></script>
