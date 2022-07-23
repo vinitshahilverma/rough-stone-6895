@@ -9,27 +9,30 @@
   padding: 0px;
 }
 #container{
+    /* border: 1px solid red; */
     border-top: 1px solid #ccc;
     width: 75%;
-    height: 500px;
+    /* height: 700px; */
+    height: auto;
     margin: auto;
     margin-top: 20px;
     display: flex;
+    margin-bottom: 20px;
     justify-content: space-between;
 }
 #title{
     margin-left: 190px;
-    margin-top: 15px;
+    margin-top: 75px;
 }
 #data_div{
     width: 64%;
 }
 #img_div{
    width: 33%;
-   height: 400px;
+   /* height: 400px; */
    margin-top: 20px;
    border-radius: 3px;
-   /*  */
+   
 }
 #imgdiv{
     width: 100%;
@@ -97,9 +100,3 @@
 #iframe{
     border: none;
 }
-/* #tc{
-    /* border: 1px solid red; */
-
-/* #photo,#video{
-    margin-top: ;
-} */
