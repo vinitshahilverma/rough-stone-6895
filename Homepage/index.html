@@ -78,13 +78,69 @@ nav ul li a:hover{
         color: #fff;
         margin-right:15px;
     }
+
+
+    /* AFTER CLICK */
+#p11{
+        position: relative;
+        margin-top: -350px;
+        margin-left: 40%;
+       width: 300px;
+        height: 60px;
+    font-size: 20px;
+    padding: 16px 20px;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 50%);
+    /* background-color: #428BCA; */
+    border: none;
+    color: black;
+    border-radius: 5px;   
+    }
+    #p22{
+        
+        position: relative;
+        margin-top: -350px;
+        margin-left: 10px;
+       width: 150px;
+        height: 60px;
+    font-size: 20px;
+    padding: 16px 20px;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 50%);
+    background-color: #428BCA;
+    border: none;
+    color: white;
+    border-radius: 5px;   
+    
+    }
+    #pdiv{
+        display: flex;
+    }
+    #register{
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-right: 10px;
+    }
+    #sigin{
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-right:15px;
+    }
+    #register:hover{
+        color:#3782BA;
+    }
 </style>
 <body>
     <nav>
         <div class="logo"><a href="index.html"><img src="https://www.gymwolf.com/img/gymwolf.png" alt=""></a> </div>
         <ul>
             <li><a id="register" href="../signUp.html">Register</a></li> 
-            <li><a id="sigin" href="../signUp.html">signin</a></li> 
+
+            <li><a href="">Signin</a></li>
         
             <li><span style="color:white" class="material-symbols-outlined">
                 search
@@ -98,7 +154,7 @@ nav ul li a:hover{
     
 
 
-    <h1>A better way to track your workouts</h1>
+    <h1 id="h1">A better way to track your workouts</h1>
 
     <div id="start_here"><button id="start">Start Free</button></div>
     
@@ -158,42 +214,6 @@ nav ul li a:hover{
     <div id="footer-top">
   
 </div>
-    
-
-<button class="btn btn-success" data-target="#mymodel" data-toggle="modal">Sign In</button>
-
-
-<div class="modal" id="mymodel">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="text-primary" id="head">Sign In</h3>
-                <button type="button" class="close" data-dismiss="modal" aria> &times;</button>
-            </div>
-
-            <div class="modal-body">
-            <form>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="E-mail" id="email">
-                </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" id="password">
-                </div>
-                <div class="form-group">
-                    <input type="submit" class="form-control" value="Sign In" id="sign">
-                </div>
-            </form>
-            </div>
-
-            <div class="modal-footer justify-content-center">
-                <p>Not a Gymwolf user? <a href="signUp.html">Register</a></p>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-
 
 </body>
 </html>
@@ -202,4 +222,26 @@ nav ul li a:hover{
 <script type="module">
     import footer from "./footer.js"
     document.getElementById("footer-top").innerHTML=footer()
+    document.getElementById("start").addEventListener("click",myf)
+    function myf(){
+        
+        var div1=document.getElementById("start_here")
+        div1.innerHTML=null
+        var p11=document.createElement("input");
+        p11.setAttribute("placeholder","Enter email address")
+        p11.setAttribute("id","p11")
+        var p22=document.createElement("button");
+        p22.innerText="Register"
+        p22.setAttribute("id","p22")
+        var pdiv=document.createElement("div");
+        pdiv.append(p11,p22)
+        pdiv.setAttribute("id","pdiv")
+        var p33=document.createElement("p");
+        p33.innerText="-Or-"
+        p33.setAttribute("id","p33")
+        var p44=document.createElement("p");
+        p44.innerText=`By signing up you agree to the Terms of Service of Gymwolf.`
+        p44.setAttribute("id","p44")
+        div1.append(pdiv)
+    }
     </script>
