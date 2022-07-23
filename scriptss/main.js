@@ -12,7 +12,7 @@ let  workout = [
     {img:"https://www.gymwolf.com/images/category_triceps.jpg",heading:"Triceps"},
     {img:"https://www.gymwolf.com/images/category_back.jpg",heading:"Back"},
     {img:"https://www.gymwolf.com/images/category_shoulder.jpg",heading:"Shoulder"},
-    {img:"https://www.gymwolf.com/images/category_legs.jpg",heading:"Legs"},
+    {img:"https://www.gymwolf.com/images/category_legs.jpg",heading:"Leg"},
     {img:"https://www.gymwolf.com/images/category_abdominal.jpg",heading:"Abdominal"},
     {img:"https://www.gymwolf.com/images/category_combined.jpg",heading:"Combined"},
     {img:"https://www.gymwolf.com/images/category_cardio.jpg",heading:"Cardio"},
@@ -24,14 +24,21 @@ let  workout = [
  
 let picture = (workout) => {
     
-    workout.forEach(({img,heading}) => {
+    workout.forEach((el) => {
+        let {img,heading}=el;
+
         let div=document.createElement("div");
+        div.addEventListener("click",() =>{
+             localStorage.setItem("body_name",JSON.stringify(el));
+             window.location.href = "chest.html";
+        })
       
         let image= document.createElement("img");
         image.src=img;
         
         let smallDiv=document.createElement("div");
-        smallDiv.setAttribute("class","smallDiv")
+        smallDiv.setAttribute("class","smallDiv");
+
         let h1 = document.createElement("h2");
          h1.innerText=heading;
 

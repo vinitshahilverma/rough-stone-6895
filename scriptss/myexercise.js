@@ -5,7 +5,9 @@ import {header,list} from "../componentss/header.js"
 document.querySelector("#mainDiv").innerHTML = header();
 document.querySelector("#list").innerHTML = list();
 
+import footer from "../Homepage/footer.js"
 
+document.querySelector("#footer-top").innerHTML = footer()
 
 
 let display = () => {
@@ -42,10 +44,13 @@ let detailArr = JSON.parse(localStorage.getItem("exerciseData")) || []
 
       console.log(detailArr);
       localStorage.setItem("exerciseData",JSON.stringify(detailArr));
+
+      document.querySelector("#exerciseName1").value = ""
+      document.querySelector("#muscleGroup1").value=""
       
     displayTable(detailArr);
 
-   
+
  }
 
 
@@ -125,6 +130,10 @@ let btn1  = () => {
 
     console.log(detailArr);
     localStorage.setItem("exerciseData",JSON.stringify(detailArr));
+
+    document.querySelector("#exerciseName").value = ""
+    document.querySelector("#muscleGroup").value = ""
+    document.querySelector("#description").value = ""
    
     displayTable(detailArr);
 }
