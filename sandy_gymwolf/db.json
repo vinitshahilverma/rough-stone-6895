@@ -5752,8 +5752,337 @@
           "photo":"",
           "pic":"https://www.gymwolf.com/images/category_cardio.jpg"
         }
+      ],
+      "workout": [
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/e6aa1ff3d630eda54f22a332a3e47dc3_.jpg",
+          "title": "Upper Body",
+          "video": "Back, Chest, Shoulder",
+          "Sort": "renan, February 7, 18:22",
+          "bigImg": "Treino Upper - Segunda e Quinta",
+          "id": 1
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/1da51f08c8dcb87c8c67d44d8e6b7a27_.jpg",
+          "title": "Chest and triceps",
+          "video": "Chest, Triceps",
+          "Sort": "TheBrain, April 9, 00:32",
+          "bigImg": "",
+          "id": 2
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/58778b3b4632877745d8444c73387839_.jpg",
+          "title": "\t AWB first months",
+          "video": "Back, Chest, Legs",
+          "Sort": "Andres W, January 6, 17:43",
+          "bigImg": "This is a complete body workout for people that want to go 3 times a week to the gym and targets a general but complete workout of the body to improve in short time the performance.",
+          "id": 3
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/b12f2ae7b47ba68ea61decf1f6c1859a_.jpg",
+          "title": "Regular Startup Plan",
+          "video": "Abdominal, Biceps, Chest, Legs, Shoulder",
+          "Sort": "Scott Sigerfoos , January 16, 09:20",
+          "bigImg": "",
+          "id": 4
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/0f2bba442157c88c8cd7d0b30a6f3037_1541775224.jpg",
+          "title": "Kava edasijõudnutele, päev 1/4: Rind ja Biitseps",
+          "video": "Abdominal, Biceps, Chest",
+          "Sort": "Indrek Ulst, January 19, 15:31",
+          "bigImg": "Nädala esimene trenn, teeme rinda ja biitsepsit. Rinna teist ja kolmandat harjutust ning biitsepsi harjutusi võib aeg-ajalt vahetada, et asi liiga üksluiseks ei läheks.",
+          "id": 5
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/15a1ea409b310c9eccac45deac80daf6_.jpg",
+          "title": "Split A",
+          "video": "Back, Biceps, Chest, Triceps",
+          "Sort": "Ryan Geraghty, January 13, 03:42",
+          "bigImg": "This workout is done on Monday and Thursday of weeks 1 - 3.",
+          "id": 6
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/2a998ded447c7a9e46f4f4d20293c7f8_.jpg",
+          "title": "Bill Starr 5x5 - Madcow Intermediate or Linear Version 2/3",
+          "video": "Abdominal, Back, Legs, Shoulder",
+          "Sort": "Indrek, January 19, 20:13",
+          "bigImg": "http://madcow.hostzi.com/5x5_Program/Linear_5x5.htm",
+          "id": 7
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/15a1ea409b310c9eccac45deac80daf6_.jpg",
+          "title": "Split B",
+          "video": "Back, Shoulder",
+          "Sort": "Ryan Geraghty, January 13, 03:46",
+          "bigImg": "This workout is to be done on Tuesday and Friday of weeks 1 - 3.",
+          "id": 8
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/2a998ded447c7a9e46f4f4d20293c7f8_.jpg",
+          "title": "Bill Starr 5x5 - Madcow Intermediate or Linear Version 3/3",
+          "video": "Biceps, Chest, Combined, Legs, Triceps",
+          "Sort": "Indrek, January 19, 20:15",
+          "bigImg": "http://madcow.hostzi.com/5x5_Program/Linear_5x5.htm",
+          "id": 9
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/15a1ea409b310c9eccac45deac80daf6_.jpg",
+          "title": "Split C",
+          "video": "Back, Legs",
+          "Sort": "Ryan Geraghty, January 13, 03:54",
+          "bigImg": "This workout is to be done on Wednesday and Sunday of weeks 1 - 3.",
+          "id": 10
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/2a998ded447c7a9e46f4f4d20293c7f8_.jpg",
+          "title": "Bill Starr 5x5 - Madcow Intermediate or Linear Version 1/3",
+          "video": "Abdominal, Combined, Legs",
+          "Sort": "Indrek, January 19, 20:11",
+          "bigImg": "http://madcow.hostzi.com/5x5_Program/Linear_5x5.htm Row asemel on Power Clean",
+          "id": 11
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/bcbff31995c88ef87b2da9fb79ec1723_1364984236.jpg",
+          "title": "Biceps and Shoulders",
+          "video": "Abdominal, Biceps, Shoulder",
+          "Sort": "Matti Linna, June 8, 00:54",
+          "bigImg": "",
+          "id": 12
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/7ff0ead69c10e217fd50713256bb2488_1364984352.jpg",
+          "title": "Stronglift 5x5 B",
+          "video": "Back, Legs, Shoulder",
+          "Sort": "Gert Roost, March 19, 14:36",
+          "bigImg": "",
+          "id": 13
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/7ff0ead69c10e217fd50713256bb2488_1364984352.jpg",
+          "title": "Stronglift 5x5 A",
+          "video": "Back, Chest, Legs",
+          "Sort": "Gert Roost, March 19, 14:34",
+          "bigImg": "",
+          "id": 14
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/47c7fb0f1a9f8b08704dd72d790d180b_.jpg",
+          "title": "Beginner Workout",
+          "video": "Abdominal, Back, Biceps, Chest, Legs, Shoulder, Triceps",
+          "Sort": "Mark Edwards, January 2, 19:33",
+          "bigImg": "Muscle & Fitness - 3 x week",
+          "id": 15
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/fb0ee02767fbaa8b492c054f8366dd48_.jpg",
+          "title": "Arnold's Golden Six",
+          "video": "Abdominal, Biceps, Chest, Legs, Shoulder",
+          "Sort": "Karu, November 13, 16:42",
+          "bigImg": "",
+          "id": 16
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/bcbff31995c88ef87b2da9fb79ec1723_1364984236.jpg",
+          "title": "Legs",
+          "video": "Abdominal, Legs",
+          "Sort": "Matti Linna, June 14, 00:26",
+          "bigImg": "",
+          "id": 17
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/2b60d64ee628691821fc25f23e822170_.jpg",
+          "title": "3x Weekly",
+          "video": "Abdominal, Back, Chest, Legs, Shoulder, Triceps",
+          "Sort": "Une Entite Inconnue, February 5, 17:48",
+          "bigImg": "Whole body and Cardio 3x Weekly Warmup: 30min Cycle Cooldown: 15min Cycle",
+          "id": 18
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/e19f29352577ac0b2b6e52b98fb0d35d_.jpg",
+          "title": "Stronglifts 5x5 - B",
+          "video": "Back, Chest, Legs",
+          "Sort": "Kevin, June 23, 00:10",
+          "bigImg": "",
+          "id": 19
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/e19f29352577ac0b2b6e52b98fb0d35d_.jpg",
+          "title": "Stronglifts 5x5 - A",
+          "video": "Back, Chest, Legs",
+          "Sort": "Kevin, June 23, 00:08",
+          "bigImg": "",
+          "id": 20
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/7a0b1c53e0355dd0e9b52ee7076bdae7_.jpg",
+          "title": "Schwarzenegger, 2&5",
+          "video": "Abdominal, Back, Biceps, Combined, Shoulder, Triceps",
+          "Sort": "Jone, April 25, 19:37",
+          "bigImg": "Shoulders and Arms",
+          "id": 21
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/bcbff31995c88ef87b2da9fb79ec1723_1364984236.jpg",
+          "title": "Back & Triceps",
+          "video": "Abdominal, Back, Biceps",
+          "Sort": "Matti Linna, June 28, 18:12",
+          "bigImg": "",
+          "id": 22
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/0f2bba442157c88c8cd7d0b30a6f3037_1541775224.jpg",
+          "title": "Kava edasijõudnutele, päev 2/4: Jalg",
+          "video": "Abdominal, Legs",
+          "Sort": "Indrek Ulst, March 4, 18:30",
+          "bigImg": "Teine päev keskendume jalgadele",
+          "id": 23
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/e9e1c51ac772ef1112ff56a5b27da141_1469532431.jpg",
+          "title": "Legs & Abs",
+          "video": "Abdominal, Legs",
+          "Sort": "Craig Boldy, July 26, 17:05",
+          "bigImg": "Legs and Abs",
+          "id": 24
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/fea56cdf444695946f95ba5dc4c3cad7_.jpg",
+          "title": " Massitsükkel - Rind, kõht",
+          "video": "Chest",
+          "Sort": "karl viiol, May 27, 17:43",
+          "bigImg": "",
+          "id": 25
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/65c16da3ea48d22a6692a8e72fac04b1_.jpg",
+          "title": "Thursday: Butt & Calves",
+          "video": "Back, Legs",
+          "Sort": "jaycee, October 14, 08:44",
+          "bigImg": "Glutes Kick Backs = 2 sets/Leg",
+          "id": 26
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/65c16da3ea48d22a6692a8e72fac04b1_.jpg",
+          "title": "Thursday: Butt & Calves",
+          "video": "Back, Legs",
+          "Sort": "jaycee, October 14, 08:44",
+          "bigImg": "Glutes Kick Backs = 2 sets/Leg",
+          "id": 27
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/a1c604bcad97590945a297daeb662bd4_.jpg",
+          "title": "Sleeve Buster",
+          "video": "Biceps, Combined, Triceps",
+          "Sort": "Ivan Arnold, November 10, 19:22",
+          "bigImg": "Noel Siegel's big arms workout from bodybuilder.com. http://www.bodybuilding.com/fun/get-big-arms-noah-siegals-sleeve-busting-workout.html",
+          "id": 28
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/1f7c13c545b0a594ee883ff339860067_.jpg",
+          "title": "beginner workout",
+          "video": "Back, Biceps, Chest, Legs, Triceps",
+          "Sort": "nick, November 24, 17:37",
+          "bigImg": "",
+          "id": 29
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/3e10e463496a3400ab7b6a06b082c93b_1364984199.jpg",
+          "title": "Leg day mk1",
+          "video": "Legs",
+          "Sort": "Tero Känsäkangas, August 3, 18:27",
+          "bigImg": "",
+          "id": 30
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/fea56cdf444695946f95ba5dc4c3cad7_.jpg",
+          "title": "Massitsükkel - jalad",
+          "video": "Legs",
+          "Sort": "karl viiol, June 9, 14:39",
+          "bigImg": "",
+          "id": 31
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/fea56cdf444695946f95ba5dc4c3cad7_.jpg",
+          "title": "Massitsükkel Õlg ja triitseps",
+          "video": "Shoulder, Triceps",
+          "Sort": "karl viiol, June 8, 21:58",
+          "bigImg": "",
+          "id": 32
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/fea56cdf444695946f95ba5dc4c3cad7_.jpg",
+          "title": "Massitsükkel - biitseps, kõht",
+          "video": "Abdominal, Biceps",
+          "Sort": "karl viiol, June 3, 18:48",
+          "bigImg": "",
+          "id": 33
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/fea56cdf444695946f95ba5dc4c3cad7_.jpg",
+          "title": "Massitsükkel - selg",
+          "video": "Back",
+          "Sort": "karl viiol, May 28, 14:06",
+          "bigImg": "",
+          "id": 34
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/eec2d6e1a5f97cc249bb61d4c76f76c6_1364984260.jpg",
+          "title": "2 - Legs - Wednesday",
+          "video": "Legs",
+          "Sort": "Kondor, March 29, 17:13",
+          "bigImg": "Dumbbell weight for each dumbbell Barbell weight not included Dumbbell Lunges: 9 reps for each leg. Objective: Strength and mass. If you do not fail the last rep of the last set of each exercise, add weight in the next week's workout. If you fail, repeat without adding weight in the next week's workout.",
+          "id": 35
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/ffda37b1d03d231c593c00530784b2e6_1364984332.jpg",
+          "title": "5x5 B",
+          "video": "Back, Biceps, Chest, Legs, Shoulder",
+          "Sort": "Vincenzo, November 26, 17:02",
+          "bigImg": "Stronglifts 5x5 B",
+          "id": 36
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/efe3d6fc7b323ddd75a80ab739ca3d3e_.jpg",
+          "title": " AA",
+          "video": "Biceps, Chest",
+          "Sort": "d, January 19, 20:32",
+          "bigImg": "Abs and Arms",
+          "id": 37
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/b5851f837087ac4a1be758d80bb955ae_.jpg",
+          "title": "Chest . Biceps",
+          "video": "Biceps, Chest",
+          "Sort": "ali, June 6, 18:32",
+          "bigImg": "monday",
+          "id": 38
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/6d6ac1bebbff611a4cac67ab6bd4abb4_1561912826.jpg",
+          "title": "Push",
+          "video": "Chest, Shoulder, Triceps",
+          "Sort": "Kunnar Kangro, May 17, 18:19",
+          "bigImg": "",
+          "id": 39
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/eaf20fe739454379e65c6aaa9bdc6857_1562502392.jpg",
+          "title": "Pull 2",
+          "video": "Back, Biceps, Shoulder",
+          "Sort": "Werner Turban, January 31, 12:18",
+          "bigImg": "",
+          "id": 40
+        },
+        {
+          "smallImg": "https://www.gymwolf.com/user_images/eaf20fe739454379e65c6aaa9bdc6857_1562502392.jpg",
+          "title": "Push 2",
+          "video": "Chest, Shoulder, Triceps",
+          "Sort": "Werner Turban, January 30, 12:29",
+          "bigImg": "",
+          "id": 41
+        }
       ]
-    
     }
 
 
