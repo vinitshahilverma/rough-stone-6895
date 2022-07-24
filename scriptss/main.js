@@ -13,6 +13,7 @@ import navbar from "../Homepage/navbar.js"
 document.querySelector("#nav").innerHTML = navbar()
 
 // shahil
+// verma
 
 let  workout = [
 
