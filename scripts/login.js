@@ -35,7 +35,7 @@ form.addEventListener("submit", function (e) {
     if (checkSignin(data.email, data.password) == true) {
         localStorage.setItem("signin", JSON.stringify(data))
         alert("Sign in successfull")
-        window.location.href = "../frontend/main.html"
+        window.location.href = "../sandy_gymwolf/sandy.html"
         // window.location.href="index.html"
     } else {
         alert("wrong Username or Password")
