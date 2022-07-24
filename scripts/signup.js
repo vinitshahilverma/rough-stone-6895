@@ -23,7 +23,7 @@ form.addEventListener("submit", function(event){
         if(checkname(data.name)==true){
             userData.push(data)
             localStorage.setItem("userData", JSON.stringify(userData))
-            window.location.href = "login.html"
+            window.location.href = "signin.html"
         }else{
             alert("account already exists")
         }
