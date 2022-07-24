@@ -1,6 +1,9 @@
 import navbar from "../Homepage/navbar.js"
-    
 document.getElementById("nav").innerHTML=navbar()
+
+import footer from "../Homepage/footer.js"
+
+document.getElementById("footer-top").innerHTML=footer()
 
 let form=document.querySelector("form")
 let userData=JSON.parse(localStorage.getItem("userData")) || []
