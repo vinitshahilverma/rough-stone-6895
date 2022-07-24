@@ -9,6 +9,8 @@ import footer from "../Homepage/footer.js"
 
 document.querySelector("#footer-top").innerHTML = footer()
 
+import navbar from "../Homepage/navbar.js"
+document.querySelector("#nav").innerHTML = navbar()
 
 let display = () => {
 
@@ -58,12 +60,13 @@ let detailArr = JSON.parse(localStorage.getItem("exerciseData")) || []
  function displayTable(detailArr){
     if(detailArr.length!==0){
     document.querySelector("#noresult").style.display = "none"}
+    else{document.querySelector("#noresult").style.display = "block"}
     document.querySelector("#table").innerHTML = ""
  detailArr.forEach((el,index) => {
   
    let div1 = document.createElement("div");
    div1.setAttribute("class","div1")
-   let div2 = document.createElement("div");
+   let div2 = document.createElement("div"); 
    div2.setAttribute("class","div2")
    let div3 = document.createElement("div");
    div3.setAttribute("class","div3")
@@ -157,3 +160,24 @@ let x = () => {
 }
 
 document.querySelector("#x").addEventListener("click",x);
+
+
+
+
+let one = () => {
+    window.location.href = "../frontend/main.html"
+}
+
+
+let two = () => {
+    window.location.href = "../frontend/myexercise.html"
+}
+
+
+let three = () => {
+    window.location.href = "../frontend/workout.html"
+}
+
+document.querySelector("#one").addEventListener("click",one);
+document.querySelector("#two").addEventListener("click",two);
+document.querySelector("#three").addEventListener("click",three);

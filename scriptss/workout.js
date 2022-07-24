@@ -4,10 +4,19 @@ import {header,list} from "../componentss/header.js"
 document.querySelector("#mainDiv").innerHTML = header();
 document.querySelector("#list").innerHTML = list();
 
+import footer from "../Homepage/footer.js"
+
+document.querySelector("#footer-top").innerHTML = footer()
+
+import navbar from "../Homepage/navbar.js"
+document.querySelector("#nav").innerHTML = navbar()
+
+// shahil
+
  let d;
 let workout = () => {
 
-    let url = "http://127.0.0.1:3000/api/workout"
+    let url = "http://localhost:3000/workout"
 
     fetch(url)
     .then((res)=> {
@@ -231,5 +240,25 @@ let remove = (index) => {
    localStorage.setItem("vermaji",JSON.stringify(vermaArr));
    append1(vermaArr)  
 }
+
+
+
+let one = () => {
+  window.location.href = "../frontend/main.html"
+}
+
+
+let two = () => {
+  window.location.href = "../frontend/myexercise.html"
+}
+
+
+let three = () => {
+  window.location.href = "../frontend/workout.html"
+}
+
+document.querySelector("#one").addEventListener("click",one);
+document.querySelector("#two").addEventListener("click",two);
+document.querySelector("#three").addEventListener("click",three);
 
 
