@@ -68,6 +68,7 @@
     width: 16%;
     
 }
+
 #btndiv>button{
     width: 100%;
     font-size: 15px;
@@ -215,6 +216,7 @@
 }
 .child>div{
     /* position: absolute; */
+    border: 1px solid green;
     cursor: pointer;
     background-color:  rgba(10, 10, 160, 0.7); 
     width: 100%;
