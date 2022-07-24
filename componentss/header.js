@@ -8,10 +8,10 @@ let header = () => {
 let list = () => {
 
     return `<div id="first">
-    <ul>
-      <li><a href="main.html">Exercise List</a></li>
-      <li><a href="myexercise.html">My Exercise</a></li>
-      <li id="third"><a href="workout.html">Workout Plan</a></li>
+    <ul>  
+    <li id="one">Exercise List</li>
+    <li id="two">My Exercise</li>
+    <li id="three">Workout Plan</li>
     </ul>
   </div>
   <div>
@@ -25,3 +25,13 @@ let list = () => {
 }
 
 export {header,list};
+
+
+
+
+// {/* <li><a href="main.html">Exercise List</a></li>
+//     <li><a href="myexercise.html">My Exercise</a></li>
+//     <li><a href="workout.html">Workout Plan</a></li>  */}
+
+
+      

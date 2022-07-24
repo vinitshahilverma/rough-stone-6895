@@ -9,7 +9,7 @@
     color: inherit;
 }
 #sandy{
-    
+    margin-top: 75px;
     width: 100%;
     height: 236px;
 }
@@ -23,17 +23,16 @@
     color: #fff;
 }
 #gym_data{
-
     margin: auto;
     width: 75%;
    display: flex;
    justify-content: space-between;
-   
+   margin-bottom: 20px;
 }
 #gym_list{
 
     width:26%;
-    height: 300px;
+    /* height: 300px; */
    
 }
 #gym{
@@ -132,7 +131,7 @@ font-size: 14px;
     cursor: pointer;
    font-size: 14px;
 }
-i{
+.fa-solid .fa-angle-right{
     font-size: 20px;
     margin-top: 10px;
     margin-right:15px ;
@@ -213,7 +212,7 @@ i{
     width: 31.3%;
 }
 #exer{
-    position: relative;
+    /* position: relative; */
     border-radius: 5px;
     width:100%;
     height: 35px;
@@ -226,7 +225,7 @@ i{
     width: 31.7%;
 }
 #date>input{
-    position: relative;
+    /* position: relative; */
     margin-top: 25px;
     height: 35px;
     width: 100%;
@@ -240,7 +239,7 @@ i{
     margin-left: 25px;
 }
 #set{
-    position: relative;
+    /* position: relative; */
     border-radius: 5px;
     width:100%;
     height: 35px;

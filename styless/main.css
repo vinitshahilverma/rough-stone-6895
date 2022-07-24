@@ -8,6 +8,7 @@
   #mainDiv {
     height: 234px;
     position: relative;
+    margin-top: 80px;
   }
   #mainDiv > img {
     width: 100%;
@@ -35,10 +36,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  #first {
+   #first {
     display: flex;
   }
-  #first li {
+  #first>ul>li{
     list-style: none;
     display: inline;
     margin-left: 20px;
@@ -55,10 +56,15 @@
     border-radius: 5px;
     border-color: transparent;
     color: white;
+    margin-top: -20px;
   }
   button > h1 {
     font-size: 22px;
   }
   a{
     text-decoration: none;
+  } 
+
+  #one:hover , #two:hover , #three:hover{
+    cursor: pointer;
   }

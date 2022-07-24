@@ -9,24 +9,28 @@
   padding: 0px;
 }
 #container{
+    /* border: 1px solid red; */
     border-top: 1px solid #ccc;
     width: 75%;
-    height: 500px;
+    height: 550px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 #title{
     margin-left: 190px;
-    margin-top: 15px;
+    margin-top: 75px;
 }
 #data_div{
     width: 64%;
 }
 #img_div{
    width: 33%;
-   height: 400px;
+   /* height: 400px; */
    margin-top: 20px;
    border-radius: 3px;
    /*  */
@@ -105,13 +109,9 @@
     display: flex;
 
 }
-/* #el{
-    display: flex;
-    width: 50%;
-    /* position: relative; */
-/* } */
+
 #div{
-    /* display: flex; */
+    
     
     width: 60%;
     border: 1px solid grey;

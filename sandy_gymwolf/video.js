@@ -1,4 +1,21 @@
 
+
+import footer from "../Homepage/footer.js"
+
+document.getElementById("footer-top").innerHTML=footer()
+
+
+import navbar from "/rough-stone-6895/sandy_gymwolf/sandy_navbar.js"
+document.getElementById("nav").innerHTML=navbar()
+
+
+let da=JSON.parse(localStorage.getItem("userData"))
+  
+da.forEach(function(el){
+  console.log(el.name)
+document.getElementById("baljor").innerHTML=el.name
+})
+
 let data=JSON.parse(localStorage.getItem("data"))
 console.log(data)
 
@@ -25,6 +42,10 @@ fault.setAttribute("id","fault")
 let muscleGroup=document.createElement("p")
 muscleGroup.innerText=data.muscleGroup
 muscleGroup.setAttribute("id","muscleGroup")
+muscleGroup.addEventListener("click",function(){
+    window.location.href="chest.html"
+})
+
 
 let step=document.createElement("h2")
 step.innerText=data.stepname
@@ -47,6 +68,10 @@ tips.setAttribute("id","tips")
 let button=document.createElement("button")
 button.innerText="❮ All exercise"
 button.setAttribute("id","btn")
+button.addEventListener("click",function(){
+    window.location.href="/rough-stone-6895/frontend/main.html"
+})
+
 
 
 data_container.append(sort,fault,muscleGroup,step,steps,tip,tips,button)

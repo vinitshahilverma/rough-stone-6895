@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="progress.css">
+    <link rel="stylesheet" href="sandy_navbar.css">
+    <link rel="stylesheet" href="../Homepage/footer.css">
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
+  <div id="nav"></div>
       <div id="sandy">
         <img src="https://www.gymwolf.com/img/header.jpg" alt="">
         <h1>Progress</h1>
@@ -87,6 +90,25 @@
         
     </div>
 
-      
+      <div id="footer-top"></div>
 </body>
 </html>
+<script type="module">
+  
+
+import footer from "../Homepage/footer.js"
+
+document.getElementById("footer-top").innerHTML=footer()
+
+
+import navbar from "/rough-stone-6895/sandy_gymwolf/sandy_navbar.js"
+document.getElementById("nav").innerHTML=navbar()
+
+let data=JSON.parse(localStorage.getItem("userData"))
+  
+  data.forEach(function(el){
+    console.log(el.name)
+  document.getElementById("baljor").innerHTML=el.name
+  })
+
+</script>
