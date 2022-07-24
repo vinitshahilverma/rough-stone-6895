@@ -4,7 +4,7 @@ function navbar(){
         <p><a id="ab1" href="../sandy_gymwolf/progress.html">Progress</a></p>
         <p><a id="ab2" href="">Calculators</a></p>
         <p><a  id="ab3" href="../frontend/main.html">Exercise and plans</a></p>
-        <p><a id="ab4" href="./my_trainer.html">My personal trainer</a></p>
+        <p><a id="ab4" href="../my_trainer.html">My personal trainer</a></p>
 
         <p><a id="ab5" id="sigin" href="">Sign in</a></p>
         <span style="color:white" class="material-symbols-outlined">search</span>
