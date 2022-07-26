@@ -5,7 +5,7 @@ document.getElementById("footer-top").innerHTML=footer()
 
 
 
-import navbar from "/rough-stone-6895/sandy_gymwolf/sandy_navbar.js"
+import navbar from "../sandy_gymwolf/sandy_navbar.js"
 document.getElementById("nav").innerHTML=navbar()
 
 
