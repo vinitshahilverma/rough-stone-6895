@@ -12,3 +12,13 @@ We had to make a replica CoSchedule website. They have completely transformed th
 - CSS :
 - JavaScipts :
 
+# Steps to Run it on your local computer:-
+
+1) Open The rough-stone-6895 in your VS-code.
+2) Open your Terminal.
+3) Write cd_sandy_gymwolf.
+4) Write npm run server.
+5) Now you can open this project in the live server.
+
+# Video link for How you can open this on your local computer:-
+   https://drive.google.com/file/d/1j-Zp6QeFpNyIMP27qPkXHWAKPvmZjxq7/view?usp=sharing
