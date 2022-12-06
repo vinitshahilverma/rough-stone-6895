@@ -1,6 +1,7 @@
 
 # Collaborative Project At Masai School “Gym-Wolf”.
 Before I start my blog writing on the clone of the website, I want to thank Masai School for this great opportunity and for providing this great platform to enhance my coding and life skills. We have tried our level best to make use of our so far journey and the knowledge that we have gained so far at Masai School to come up with our  project.
+![Screenshot (272)](https://user-images.githubusercontent.com/103120032/205837195-1abd92f4-831d-4d57-af4b-5b4771fb4d5a.png)
 # Getting Started…
 It was a challenging journey for me and all my team members as we have to complete it within the time of construct week, so we faced different challenges like it was our first project and we did not have any experience working in a team also we did not know how to manage everything within the time period. So we started with planning and studying the website, then we distributed the workflow, the roles, and responsibilities and with great collaboration, we managed the work.
 
@@ -10,7 +11,7 @@ We had to make a replica CoSchedule website. They have completely transformed th
 # Tech Stacks used -
 - HTML:
 - CSS :
-- JavaScipts :![Screenshot (272)](https://user-images.githubusercontent.com/103120032/205837195-1abd92f4-831d-4d57-af4b-5b4771fb4d5a.png)
+- JavaScipts :
 
 
 # Steps to Run it on your local computer:-
