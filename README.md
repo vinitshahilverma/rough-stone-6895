@@ -10,7 +10,8 @@ We had to make a replica CoSchedule website. They have completely transformed th
 # Tech Stacks used -
 - HTML:
 - CSS :
-- JavaScipts :
+- JavaScipts :![Screenshot (272)](https://user-images.githubusercontent.com/103120032/205837195-1abd92f4-831d-4d57-af4b-5b4771fb4d5a.png)
+
 
 # Steps to Run it on your local computer:-
 
